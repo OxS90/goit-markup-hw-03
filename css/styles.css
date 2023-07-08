@@ -1,0 +1,208 @@
+:root {
+	--dark-bg-color: #2f303a;
+	--text-dark-bg-color: #ffffff;
+	--text-bg-color: #212121;
+	--link-color-active: #2196f3;
+	--shaded-color: #757575;
+}
+
+.container {
+	font-family: "Roboto", sans-serif;
+	color: var(--text-bg-color);
+	width: 1200px;
+	margin: auto;
+}
+.global-header {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.global-footer {
+	background-color: var(--dark-bg-color);
+	width: inherit;
+	height: 251px;
+}
+.navigation-tabs,
+.global-header .mail-phone {
+	display: flex;
+}
+.navigation-tabs,
+.mail-phone,
+.main-section .our-assets,
+.our-job-section .our-job-list,
+.our-team-section .our-team,
+.portfolio-main-section ul {
+	list-style-type: none;
+}
+.global-header a {
+	color: inherit;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.28px;
+}
+.global-header .logo span,
+.global-footer .logo span,
+.global-header .active-link {
+	color: var(--link-color-active);
+}
+.global-footer .logo {
+	color: var(--text-dark-bg-color);
+}
+.global-footer a {
+	text-decoration: none;
+}
+.global-footer .mail-phone {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0.42px;
+	padding-bottom: 12px;
+}
+.global-header a.logo,
+.global-footer a.logo {
+	font-family: "Raleway";
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 0.78px;
+}
+.global-footer .mail-phone div {
+	color: var(--text-dark-bg-color);
+}
+.global-header .mail-phone,
+.global-footer .mail-phone a {
+	color: var(--shaded-color);
+}
+
+.global-header a:hover,
+.global-header a:focus,
+.global-footer a:focus,
+.global-footer a:hover,
+.global-header .mail-phone > a:hover,
+.global-header .mail-phone > a:focus,
+.global-footer .mail-phone > a:hover,
+.global-footer .mail-phone > a:focus {
+	color: var(--link-color-active);
+}
+.main-section-intro {
+	background-color: var(--dark-bg-color);
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	margin: 0 -200px 0 -200px;
+}
+.main-section .main-section-intro h1 {
+	color: var(--text-dark-bg-color);
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 60px;
+	letter-spacing: 2.64px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	width: 696px;
+}
+.main-section .main-section-intro button {
+	background-color: var(--link-color-active);
+	color: var(--text-dark-bg-color);
+	text-align: center;
+	font-weight: 700;
+	line-height: 1.875em;
+	letter-spacing: 0.96px;
+	cursor: pointer;
+}
+.main-section .our-assets .main-title,
+.main-section .our-assets p {
+	font-size: 14px;
+	letter-spacing: 0.42px;
+}
+.our-assets .main-title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.our-assets p {
+	color: var(--shaded-color);
+	line-height: 1.5em;
+}
+.main-section section .section-header {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 1.08px;
+}
+.our-team-section {
+	background-color: #f5f4fa;
+	height: 648px;
+	padding: 94px 0 94px 0;
+}
+.our-team-section .our-team {
+	letter-spacing: 0.48px;
+	di
+}
+.our-team-section .our-team .our-team-card {
+	background-color: var(--text-dark-bg-color);
+	width: 270px;
+	height: 368px;
+}
+.our-team-section .our-team .our-team-card h3 {
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 0.48px;
+}
+.our-team-section .our-team .our-team-card h4 {
+	color: var(--shaded-color);
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+}
+.portfolio-main-section .portfolio-button-list button {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0.48px;
+}
+.portfolio-main-section button:hover,
+.portfolio-main-section button:focus {
+	color: var(--text-dark-bg-color);
+	background-color: var(--link-color-active);
+}
+.project-list li > h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2.25em;
+	letter-spacing: 1.08px;
+}
+.project-list li > h4 {
+	color: var(--shaded-color);
+	line-height: 1.875em;
+	letter-spacing: 0.48px;
+}
+
+.our-assets,
+.our-job-list,
+.our-team {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding-left: 0;
+}
+.portfolio-button-list {
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+	padding-top: 91px;
+	gap: 8px;
+}
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 0;
+}
